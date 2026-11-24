@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Skimmed%20v3/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="120" alt="Skimmed app icon">
+  <img src="docs/icon.png" width="120" alt="Skimmed app icon">
 </p>
 
 <h1 align="center">Skimmed</h1>
