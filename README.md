@@ -14,13 +14,15 @@ When you pay abroad, your bank converts the charge at its own rate and quietly k
 
 **No bank login, no account, no server.** Statements are parsed and analysed entirely on the device. The only network calls are the ECB's public rates API and StoreKit.
 
-<!-- Screenshots: add PNGs to docs/screenshots/ and uncomment.
 <p align="center">
-  <img src="docs/screenshots/home.png" width="230">
-  <img src="docs/screenshots/cards.png" width="230">
-  <img src="docs/screenshots/trip.png" width="230">
+  <img src="docs/screenshots/leak-map.png" width="250" alt="Home screen with total hidden markup and a world map of where fees leaked">
+  <img src="docs/screenshots/best-card.png" width="250" alt="Card ranking showing which card has the lowest markup in Japan">
+  <img src="docs/screenshots/trip-tokyo.png" width="250" alt="Tokyo trip audit listing each charge and its markup">
 </p>
--->
+<p align="center">
+  <img src="docs/screenshots/dcc-script.png" width="250" alt="Advice card on refusing dynamic currency conversion at the terminal">
+  <img src="docs/screenshots/currency-spending.png" width="250" alt="Spending in one currency with gains and losses per charge">
+</p>
 
 ## Features
 
