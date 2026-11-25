@@ -6,7 +6,7 @@
 
 <p align="center"><b>Your travel fees, finally seen.</b><br>
 A native iOS app that finds the hidden foreign-exchange markup on your card statements.<br>
-<a href="https://skimmed.org">skimmed.org</a></p>
+<a href="https://chengy564-alt.github.io/skimmed-ios/">Website</a></p>
 
 ---
 
@@ -65,7 +65,7 @@ site/            Static marketing site and privacy policy
 
 ## Website
 
-The marketing site lives in [`site/`](site). It is a single self-contained HTML page with a cinematic scroll-driven landing: the eclipse artwork from the app's launch splash, a phone mockup of the real Home screen, and animated charts. It uses no frameworks or build step. The privacy policy is in the same folder. To preview it, open `site/index.html` in a browser.
+The marketing site lives in [`site/`](site). It is a single self-contained HTML page with a cinematic scroll-driven landing: the eclipse artwork from the app's launch splash, a phone mockup of the real Home screen, and animated charts. It uses no frameworks or build step. The privacy policy is in the same folder. It is published free with GitHub Pages at [chengy564-alt.github.io/skimmed-ios](https://chengy564-alt.github.io/skimmed-ios/).
 
 ## Build and run
 
