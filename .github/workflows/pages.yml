@@ -22,14 +22,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       # site/ uses root links ("/", "/privacy"). GitHub Pages serves this repo
       # under a subpath, so make them relative for the published copy.
       - name: Make links relative
         run: sed -i -e 's#href="/"#href="./"#g' -e 's#href="/privacy"#href="privacy.html"#g' site/*.html
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
