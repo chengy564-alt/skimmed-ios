@@ -63,6 +63,10 @@ Tests/           XCTest suite with synthetic CSV fixtures
 site/            Static marketing site and privacy policy
 ```
 
+## Website
+
+The marketing site lives in [`site/`](site). It is a single self-contained HTML page with a cinematic scroll-driven landing: the eclipse artwork from the app's launch splash, a phone mockup of the real Home screen, and animated charts. It uses no frameworks or build step. The privacy policy is in the same folder. To preview it, open `site/index.html` in a browser.
+
 ## Build and run
 
 You need Xcode 26 or newer.
