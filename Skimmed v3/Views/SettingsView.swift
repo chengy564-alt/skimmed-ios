@@ -619,9 +619,9 @@ private struct HelpSettings: View {
             .padding(.vertical, 6)
             .surfaceCard(cornerRadius: 20)
 
-            Link(destination: URL(string: "mailto:support@skimmed.org")!) {
+            Link(destination: URL(string: "https://x.com/Skimmedapps")!) {
                 HStack(spacing: 10) {
-                    Image(systemName: "envelope.fill")
+                    Image(systemName: "bubble.left.fill")
                         .font(.system(size: 12, weight: .semibold))
                         .foregroundStyle(Theme.accent)
                     Text("Contact us")

@@ -74,4 +74,4 @@ We may update this policy. Material changes will be reflected here with a new
 
 ## Contact
 
-Questions about this policy or your data? Email **support@skimmed.org**.
+Questions about this policy or your data? Message us at [@Skimmedapps on X](https://x.com/Skimmedapps).
